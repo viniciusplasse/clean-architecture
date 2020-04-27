@@ -1,0 +1,31 @@
+{
+  "name": "product-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:habyte/product-store.git",
+  "author": "hsangalli <habyte@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node_modules/.bin/cross-env NODE_ENV=dev node_modules/.bin/nodemon index.js",
+    "test": "node_modules/.bin/cross-env NODE_ENV=test node_modules/.bin/jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "jest": "^25.4.0",
+    "mongoose": "^5.9.10",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.3"
+  }
+}
