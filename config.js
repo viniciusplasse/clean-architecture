@@ -26,10 +26,10 @@ module.exports = {
   },
   prod: {
     server: {
-      port: process.env.PORT,
+      port: 27017,
     },
     database: {
-      uri: process.env.MONGODB_URI,
+      uri: mongodb://henrique:atividadeinfraawsgh@ds129233.mlab.com:29233/trabalhoinfra,
       options: MONGOOSE_OPTIONS,
     }
   }
