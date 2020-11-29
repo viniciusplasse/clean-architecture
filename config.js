@@ -26,7 +26,7 @@ module.exports = {
   },
   prod: {
     server: {
-      port: 27017,
+      port: 8080,
     },
     database: {
       uri: "mongodb://henrique:atividade1nfra4ws@ds129233.mlab.com:29233/trabalhoinfra",
