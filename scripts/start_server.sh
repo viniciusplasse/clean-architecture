@@ -6,4 +6,4 @@ sudo apt-get -y upgrade
 sudo rm -rf node_modules
 sudo rm -f package-lock.json
 npm install
-npm start
+NODE_ENV=prod npm start
