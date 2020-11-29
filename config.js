@@ -29,7 +29,7 @@ module.exports = {
       port: 27017,
     },
     database: {
-      uri: mongodb://henrique:atividade1nfra4ws@ds129233.mlab.com:29233/trabalhoinfra,
+      uri: "mongodb://henrique:atividade1nfra4ws@ds129233.mlab.com:29233/trabalhoinfra",
       options: MONGOOSE_OPTIONS,
     }
   }
