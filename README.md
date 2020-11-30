@@ -1,6 +1,6 @@
 # ProductStore API
 
-Implementação de uma API REST com base na arquitetura [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) com Express.js e Mongoose
+Implementação de uma API REST com base na arquitetura [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) com Express.js e Mongoose.
 
 ## Ambiente de produção
 
