@@ -21,7 +21,7 @@ jobs:
               run: |
                 mkdir deployment
                 rsync -Rr . deployment
-                zip -r deployment.zip deployment
+                zip -r trabalho.zip deployment
                 aws s3 cp deployment.zip s3://${{ secrets.S3_BUCKET }}/
 
             - name: Create deployment
