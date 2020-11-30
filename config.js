@@ -3,6 +3,7 @@ const MONGOOSE_OPTIONS = {
   useUnifiedTopology: true,
   useCreateIndex: true,
   useFindAndModify: false,
+  retryWrites: false,
 }
 
 module.exports = {
