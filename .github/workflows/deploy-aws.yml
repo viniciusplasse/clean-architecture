@@ -30,3 +30,6 @@ jobs:
                     --deployment-config-name CodeDeployDefault.OneAtATime \
                     --deployment-group-name producao \
                     --s3-location bucket=${{ secrets.S3_BUCKET }},bundleType=zip,key=deployment.zip
+            - name: Run App
+              run: scripts/start_server.sh
+                   
