@@ -8,7 +8,7 @@ const addProduct = async (title, description, price) => {
       throw new Error("INVALID_PRODUCT")
     }
 
-    throw new Error("UNEXPECTED_ERROR_ADD_PRODUCT")
+    throw new e
   }
 }
 
