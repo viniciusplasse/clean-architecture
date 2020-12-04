@@ -15,6 +15,7 @@ class ProductView {
   static renderMany(products, pagination) {
     return {
       data: products.map(p => this.render(p)),
+      teste: "teste",
       pagination
     }
   }
